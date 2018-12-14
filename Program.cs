@@ -5,6 +5,8 @@ using System.Text.RegularExpressions;
 namespace commandline
 {
     class Program
+    {
+        struct Command
         {
             public string Header { get; set; }
             public List<string> Verbs;
@@ -41,5 +43,4 @@ namespace commandline
             Console.ReadKey();
         }
     }
-
 }
